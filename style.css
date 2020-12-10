@@ -1,0 +1,85 @@
+/*
+ * # for ID's
+ * . for classes
+ * element[attr] for element with attr
+ * element:state i.e., a:hover
+ */
+/*
+ * Examplr
+ html {
+ background-color: black;
+ }
+ */
+
+header {
+  width: 40%;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: auto;
+  list-style-type: none;
+}
+
+#main-content {
+  width: 40%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #DE0000;
+}
+
+footer p, footer h3 {
+  color: ivory;
+}
+
+.footer-content, #footer-question {
+  width: 40%;
+  margin: auto;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.location .hours .phone {
+  margin: auto;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-map .footer-form {
+  margin: auto;
+}
+
+/*.footer-form {
+  width: 75%;
+}
+.footer-map {
+  width: 25%;
+}*/
+
+.question-form {
+  display: flex;
+}
+.text-input .area-input {
+  margin: auto;
+}
+
+.text-input {
+  align-content: space-around;
+}
